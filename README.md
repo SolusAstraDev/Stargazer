@@ -4,11 +4,17 @@ A small web app that finds the upcoming night with the least moonlight from a ma
 
 ## GitHub Pages
 
-This repo is set up as a **project site**. After you push to `main` and the workflow succeeds, the app is at:
+Live URL after a successful deploy:
 
-`https://<username>.github.io/Stargazer/`
+`https://SolusAstraDev.github.io/Stargazer/`
 
-In the GitHub repo: **Settings → Pages → Source → GitHub Actions**. The repo must be named `Stargazer` so it matches the Vite `base` path.
+The workflow cannot create the site until Pages is enabled once:
+
+1. Open [Settings → Pages](https://github.com/SolusAstraDev/Stargazer/settings/pages)
+2. Set **Source** to **GitHub Actions** and save
+3. Re-run **Deploy GitHub Pages** from the Actions tab (or push to `main`)
+
+The repo name must stay `Stargazer` so it matches the Vite `base` path.
 
 ## Run
 
