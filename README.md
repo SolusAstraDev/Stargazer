@@ -2,6 +2,14 @@
 
 A small web app that finds the upcoming night with the least moonlight from a map location, then lists planets and constellations you can see that night.
 
+## GitHub Pages
+
+This repo is set up as a **project site**. After you push to `main` and the workflow succeeds, the app is at:
+
+`https://<username>.github.io/Stargazer/`
+
+In the GitHub repo: **Settings → Pages → Source → GitHub Actions**. The repo must be named `Stargazer` so it matches the Vite `base` path.
+
 ## Run
 
 ```bash
